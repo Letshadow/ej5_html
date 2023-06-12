@@ -1,0 +1,52 @@
+/* -----------------ALLPAGES----------------*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{ 
+    max-width: 100vw;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 35% auto;
+    grid-template-rows: 50% auto;
+    grid-template-areas: "ul ur"
+    "dl dr";
+    
+    background-color: #002868;
+}
+.c{
+    background-color: #EF2B2D;
+}
+
+.up.le{
+    grid-area: ul;
+    border-bottom:5vh solid white;
+    border-right:2.5vw solid white;
+    margin-bottom: 5vh;
+    margin-right: 2.5vw;
+}
+
+.up.re{
+    grid-area: ur;
+    border-bottom:5vh solid white;
+    border-left:2.5vw solid white;
+    margin-bottom: 5vh;
+    margin-left: 2.5vw;
+}
+
+.do.le{
+    grid-area: dl;
+    border-top:5vh solid white;
+    border-right:2.5vw solid white;
+    margin-top: 5vh;
+    margin-right: 2.5vw;
+}
+.do.re{
+    grid-area: dr;
+    border-top:5vh solid white;
+    border-left:2.5vw solid white;
+    margin-top: 5vh;
+    margin-left: 2.5vw;
+}
+
